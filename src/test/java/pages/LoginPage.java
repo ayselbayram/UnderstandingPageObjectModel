@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import utils.ConfigurationReader;
 import utils.Driver;
 
-public class LoginPage {
+public class LoginPage extends PageBase {
 
     public LoginPage() {
         PageFactory.initElements(Driver.get(),this);
